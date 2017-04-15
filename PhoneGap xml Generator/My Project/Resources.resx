@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="allow_intent" xml:space="preserve">
+    <value>&lt;access origin="*" /&gt;
+    &lt;allow-intent href="http://*/*" /&gt;
+    &lt;allow-intent href="https://*/*" /&gt;
+    &lt;allow-intent href="tel:*" /&gt;
+    &lt;allow-intent href="sms:*" /&gt;
+    &lt;allow-intent href="mailto:*" /&gt;
+    &lt;allow-intent href="geo:*" /&gt;</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>&lt;author email="%email%" href="%website%"&gt;
+%displayauthor%&lt;/author&gt;</value>
+    <comment>%email%,%website%,%displayauthor%</comment>
+  </data>
+  <data name="content" xml:space="preserve">
+    <value>&lt;content src="index.html" /&gt;</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>&lt;description&gt;
+%description%&lt;/description&gt;</value>
+    <comment>%description%</comment>
+  </data>
+  <data name="initialize" xml:space="preserve">
+    <value>&lt;?xml version='1.0' encoding='utf-8'?&gt;
+&lt;widget id="%domain%" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"&gt;</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>&lt;name&gt;%name%&lt;/name&gt;</value>
+    <comment>%name%</comment>
+  </data>
+  <data name="platform_android" xml:space="preserve">
+    <value>&lt;platform name="android"&gt;
+        &lt;icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" /&gt;
+        &lt;icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" /&gt;
+        &lt;icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" /&gt;
+        &lt;icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" /&gt;
+        &lt;icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" /&gt;
+        &lt;icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" /&gt;
+    &lt;/platform&gt;</value>
+  </data>
+  <data name="platform_ios" xml:space="preserve">
+    <value>&lt;platform name="ios"&gt;
+        &lt;icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" /&gt;
+        &lt;icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" /&gt;
+        &lt;icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" /&gt;
+        &lt;icon height="80" platform="ios" src="www/res/icon/ios/icon-40@2x.png" width="80" /&gt;
+        &lt;icon height="50" platform="ios" src="www/res/icon/ios/icon-50.png" width="50" /&gt;
+        &lt;icon height="100" platform="ios" src="www/res/icon/ios/icon-50@2x.png" width="100" /&gt;
+        &lt;icon height="60" platform="ios" src="www/res/icon/ios/icon-60.png" width="60" /&gt;
+        &lt;icon height="120" platform="ios" src="www/res/icon/ios/icon-60@2x.png" width="120" /&gt;
+        &lt;icon height="180" platform="ios" src="www/res/icon/ios/icon-60@3x.png" width="180" /&gt;
+        &lt;icon height="72" platform="ios" src="www/res/icon/ios/icon-72.png" width="72" /&gt;
+        &lt;icon height="144" platform="ios" src="www/res/icon/ios/icon-72@2x.png" width="144" /&gt;
+        &lt;icon height="76" platform="ios" src="www/res/icon/ios/icon-76.png" width="76" /&gt;
+        &lt;icon height="152" platform="ios" src="www/res/icon/ios/icon-76@2x.png" width="152" /&gt;
+        &lt;icon height="29" platform="ios" src="www/res/icon/ios/icon-small.png" width="29" /&gt;
+        &lt;icon height="58" platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" /&gt;
+        &lt;icon height="87" platform="ios" src="www/res/icon/ios/icon-small@3x.png" width="87" /&gt;
+        &lt;splash height="1136" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" /&gt;
+        &lt;splash height="1334" platform="ios" src="www/res/screen/ios/Default-667h.png" width="750" /&gt;
+        &lt;splash height="2208" platform="ios" src="www/res/screen/ios/Default-736h.png" width="1242" /&gt;
+        &lt;splash height="1242" platform="ios" src="www/res/screen/ios/Default-Landscape-736h.png" width="2208" /&gt;
+        &lt;splash height="1536" platform="ios" src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" /&gt;
+        &lt;splash height="768" platform="ios" src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" /&gt;
+        &lt;splash height="2048" platform="ios" src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" /&gt;
+        &lt;splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" /&gt;
+        &lt;splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" /&gt;
+        &lt;splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" /&gt;
+    &lt;/platform&gt;</value>
+  </data>
+  <data name="platform_spec" xml:space="preserve">
+    <value>&lt;platform name="android"&gt;
+        &lt;allow-intent href="market:*" /&gt;
+    &lt;/platform&gt;
+    &lt;platform name="ios"&gt;
+        &lt;allow-intent href="itms:*" /&gt;
+        &lt;allow-intent href="itms-apps:*" /&gt;
+    &lt;/platform&gt;
+&lt;/widget&gt;</value>
+  </data>
+  <data name="platform_windows" xml:space="preserve">
+    <value>&lt;platform name="windows"&gt;
+        &lt;icon height="150" platform="windows" src="www/res/icon/windows/Square150x150Logo.scale-100.png" width="150" /&gt;
+        &lt;icon height="30" platform="windows" src="www/res/icon/windows/Square30x30Logo.scale-100.png" width="30" /&gt;
+        &lt;icon height="50" platform="windows" src="www/res/icon/windows/StoreLogo.scale-100.png" width="50" /&gt;
+        &lt;splash height="300" platform="windows" src="www/res/screen/windows/SplashScreen.scale-100.png" width="620" /&gt;
+        &lt;icon height="120" platform="windows" src="www/res/icon/windows/StoreLogo.scale-240.png" width="120" /&gt;
+        &lt;icon height="44" platform="windows" src="www/res/icon/windows/Square44x44Logo.scale-100.png" width="44" /&gt;
+        &lt;icon height="106" platform="windows" src="www/res/icon/windows/Square44x44Logo.scale-240.png" width="106" /&gt;
+        &lt;icon height="70" platform="windows" src="www/res/icon/windows/Square70x70Logo.scale-100.png" width="70" /&gt;
+        &lt;icon height="71" platform="windows" src="www/res/icon/windows/Square71x71Logo.scale-100.png" width="71" /&gt;
+        &lt;icon height="170" platform="windows" src="www/res/icon/windows/Square71x71Logo.scale-240.png" width="170" /&gt;
+        &lt;icon height="360" platform="windows" src="www/res/icon/windows/Square150x150Logo.scale-240.png" width="360" /&gt;
+        &lt;icon height="310" platform="windows" src="www/res/icon/windows/Square310x310Logo.scale-100.png" width="310" /&gt;
+        &lt;icon height="150" platform="windows" src="www/res/icon/windows/Wide310x150Logo.scale-100.png" width="310" /&gt;
+        &lt;icon height="360" platform="windows" src="www/res/icon/windows/Wide310x150Logo.scale-240.png" width="744" /&gt;
+        &lt;splash height="1920" platform="windows" src="www/res/screen/windows/SplashScreenPhone.scale-240.png" width="1152" /&gt;
+    &lt;/platform&gt;</value>
+  </data>
+  <data name="platform_wp8" xml:space="preserve">
+    <value>&lt;platform name="wp8"&gt;
+        &lt;icon height="99" platform="wp8" src="www/res/icon/wp8/ApplicationIcon.png" width="99" /&gt;
+        &lt;icon height="159" platform="wp8" src="www/res/icon/wp8/Background.png" width="159" /&gt;
+        &lt;splash height="1280" platform="wp8" src="www/res/screen/wp8/screen-portrait.jpg" width="768" /&gt;
+    &lt;/platform&gt;</value>
+  </data>
+  <data name="plugins" xml:space="preserve">
+    <value>&lt;plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" /&gt;
+    &lt;plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" /&gt;
+    &lt;plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" /&gt;
+    &lt;plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" /&gt;
+    &lt;plugin name="cordova-plugin-contacts" source="npm" spec="~2.0.1" /&gt;
+    &lt;plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" /&gt;
+    &lt;plugin name="cordova-plugin-device-motion" source="npm" spec="~1.2.0" /&gt;
+    &lt;plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2" /&gt;
+    &lt;plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" /&gt;
+    &lt;plugin name="cordova-plugin-file" source="npm" spec="~4.1.1" /&gt;
+    &lt;plugin name="cordova-plugin-file-transfer" source="npm" spec="~1.5.0" /&gt;
+    &lt;plugin name="cordova-plugin-geolocation" source="npm" spec="~2.1.0" /&gt;
+    &lt;plugin name="cordova-plugin-globalization" source="npm" spec="~1.0.3" /&gt;
+    &lt;plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.3.0" /&gt;
+    &lt;plugin name="cordova-plugin-media" source="npm" spec="~2.2.0" /&gt;
+    &lt;plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" /&gt;
+    &lt;plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" /&gt;
+    &lt;plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" /&gt;
+    &lt;plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" /&gt;
+    &lt;plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" /&gt;</value>
+  </data>
+  <data name="preference" xml:space="preserve">
+    <value>&lt;preference name="DisallowOverscroll" value="%disoverscroll%" /&gt;
+    &lt;preference name="android-minSdkVersion" value="%sdkver%" /&gt;</value>
+    <comment>%disoverscroll%,%sdkver%</comment>
+  </data>
+</root>
